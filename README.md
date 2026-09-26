@@ -43,18 +43,6 @@ Other days will involve notebooks, APIs, model training, retrieval systems, agen
 
 I created an Excel tracker for the full roadmap.
 
-It includes:
-
-- Day
-- Phase
-- Main topic
-- Concepts to explore
-- End-of-day deliverable
-- Status
-- Notes
-
-You can use the same tracker to follow along:
-
 [**Download the 90-Day AI Engineer Tracker**](./AI_Engineer_90_Day_Tracker.xlsx)
 
 ---
@@ -76,22 +64,6 @@ You can use the same tracker to follow along:
 
 The `python/` folder contains the early learning notes and hands-on notebooks.
 
-As the roadmap progresses, the repository can expand into folders for areas such as:
-
-```text
-python/
-machine-learning/
-deep-learning/
-llms/
-rag/
-agents/
-multimodal/
-evaluation/
-serving/
-mlops/
-system-design/
-capstone/
-```
 
 The exact structure may evolve as the project grows.
 
