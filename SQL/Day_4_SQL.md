@@ -963,6 +963,18 @@ For Day 4, this is enough foundation to move forward. There is much more SQL to 
 
 ## Practice — Don’t Just Read
 
+The examples are split into [separate topic files](./practice/README.md), with comments explaining each query and its expected results. Start with [00_setup.sql](./practice/00_setup.sql) to create the tables and sample rows, then choose a topic such as [SELECT](./practice/01_select.sql), [WHERE](./practice/04_where.sql), or [JOIN](./practice/10_joins.sql).
+
+Follow the [practice guide](./practice/README.md) to run one query at a time in the same SQLite session, or select a statement in your SQL editor. Setup only needs to run once per fresh connection.
+
+To run every topic at once with the SQLite command-line tool, use the [all-topics runner](./Day_4_SQL_Practice.sql) from the repository root:
+
+```bash
+sqlite3 -bail -header -column -nullvalue NULL ':memory:' < SQL/Day_4_SQL_Practice.sql
+```
+
+This command starts a fresh database in memory and prints all the results. The database disappears when the command finishes.
+
 Open a small database and try writing queries for:
 
 - users from a specific city
