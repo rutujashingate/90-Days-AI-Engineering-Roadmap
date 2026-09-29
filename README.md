@@ -55,15 +55,30 @@ I created an Excel tracker for the full roadmap.
 ├── README.md
 ├── AI_Engineer_90_Day_Tracker.xlsx
 │
-└── python/
-    ├── Day 1 notes
-    ├── Day 2 NumPy notebook
-    ├── Day 3 pandas notebook
-    └── ...
+├── python/
+│   ├── DAY_01_Back_to_Python.md
+│   ├── Day_2_NumPy_Colab.ipynb
+│   └── Day_3_Pandas_Colab.ipynb
+├── SQL/
+├── APIs/
+├── Math_for-AI/
+│   └── Day6_Linear_Algebra.ipynb
+├── machine-learning/
+├── deep-learning/
+├── llms/
+├── embeddings-and-rag/
+├── agents/
+├── multimodal/
+├── evaluation-and-safety/
+├── serving-and-deployment/
+├── mlops/
+└── system-design/
+    └── capstone/
 ```
 
 The `python/` folder contains the early learning notes and hands-on notebooks.
 
+The topic folders organize notes, notebooks, and implementations by roadmap area. The final project lives in `system-design/capstone/`.
 
 The exact structure may evolve as the project grows.
 
