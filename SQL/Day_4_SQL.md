@@ -82,6 +82,29 @@ So even if your main job is building models, RAG systems, or agents, you will ev
 
 SQL is the language we use to ask those questions.
 
+## Creating a Table with CREATE TABLE
+
+Before we can query a table, we need to create it. In a SQL editor connected to your database, use `CREATE TABLE`, followed by the table name and a list of columns inside parentheses. Each column has a name, a data type, and optional rules called constraints. For example, we can create the `users` table like this:
+
+```sql
+CREATE TABLE users (
+    user_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    city TEXT
+);
+```
+
+Here:
+
+- `CREATE TABLE users` creates a table named `users`.
+- `INTEGER` is used for whole numbers, and `TEXT` is used for text.
+- `PRIMARY KEY` makes `user_id` the unique identifier for each row.
+- `NOT NULL` means `name` cannot contain a missing (`NULL`) value.
+- Commas separate the column definitions, and the semicolon ends the statement.
+
+This creates an empty table with three columns. Creating a table defines its structure; use `INSERT INTO` to add rows and `SELECT` to read them.
+
+
 ## 1. SELECT
 
 `SELECT` tells SQL what data we want.
